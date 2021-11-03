@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-31T09:02:18.724Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="pVIbkqCQz7k-UFdXUjGN" version="15.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T08:05:38.521Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="V9-Vb-ZP3Sc8z8Jm319j" version="15.6.6" type="github">
   <diagram id="vguMqKOHpN7uPl-TGXzs" name="Page-1">
-    <mxGraphModel dx="3207" dy="1050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -179,7 +179,7 @@
         </mxCell>
         <mxCell id="YUzCCpUECBsyAlVZZMWO-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;endArrow=none;endFill=0;strokeColor=default;dashed=1;" parent="1" source="YUzCCpUECBsyAlVZZMWO-59" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="490" as="targetPoint" />
+            <mxPoint x="240" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YUzCCpUECBsyAlVZZMWO-59" value="zastává" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;" parent="1" vertex="1">
@@ -198,19 +198,10 @@
           <mxGeometry x="406" y="680" width="144" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3lFEYHUMnGKO-NiMO6cJ-1" value="územní působnost" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="860" y="240" width="162" height="146" as="geometry" />
+          <mxGeometry x="860" y="240" width="162" height="56" as="geometry" />
         </mxCell>
         <mxCell id="3lFEYHUMnGKO-NiMO6cJ-2" value="&lt;&lt;PK&gt;&gt; ID území" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Helvetica;" parent="3lFEYHUMnGKO-NiMO6cJ-1" vertex="1">
           <mxGeometry y="26" width="162" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3lFEYHUMnGKO-NiMO6cJ-3" value="název" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Helvetica;" parent="3lFEYHUMnGKO-NiMO6cJ-1" vertex="1">
-          <mxGeometry y="56" width="162" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3lFEYHUMnGKO-NiMO6cJ-4" value="sídlo" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Helvetica;" parent="3lFEYHUMnGKO-NiMO6cJ-1" vertex="1">
-          <mxGeometry y="86" width="162" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3lFEYHUMnGKO-NiMO6cJ-5" value="typ" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Helvetica;" parent="3lFEYHUMnGKO-NiMO6cJ-1" vertex="1">
-          <mxGeometry y="116" width="162" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
