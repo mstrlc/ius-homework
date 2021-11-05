@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T19:19:53.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="7XD9bX41T8HYhIaZwnjC" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-05T19:23:15.510Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="WZOjs_vxhxbU0O0rtQJV" version="15.7.0" type="github">
   <diagram id="vguMqKOHpN7uPl-TGXzs" name="Page-1">
     <mxGraphModel dx="1701" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -294,7 +294,7 @@
         <mxCell id="6NPvcWR003Nbs39lDt_t-7" value="0 .. 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="242" y="650" width="39" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6NPvcWR003Nbs39lDt_t-10" value="zavedena v" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="6NPvcWR003Nbs39lDt_t-10" value="zavedena v&#xa;&lt;&lt;identif&gt;&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="942" y="545" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6NPvcWR003Nbs39lDt_t-11" value="datum zavedení" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;" vertex="1" parent="6NPvcWR003Nbs39lDt_t-10">
