@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T18:27:33.086Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="rCuGQMT0fpgEro_hAcoP" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-05T18:59:10.236Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="538gw4CznDBDvQkv0htp" version="15.7.0" type="github">
   <diagram id="vguMqKOHpN7uPl-TGXzs" name="Page-1">
     <mxGraphModel dx="1625" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="YUzCCpUECBsyAlVZZMWO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;endArrow=classic;endFill=1;strokeColor=default;" parent="1" source="ZOUjihIOvBYhrfelI1z0-1" target="YUzCCpUECBsyAlVZZMWO-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="530" y="330" />
+              <mxPoint x="470" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -112,7 +112,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YUzCCpUECBsyAlVZZMWO-16" value="rozhodnutí" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="460" y="400" width="140" height="180" as="geometry" />
+          <mxGeometry x="400" y="406" width="140" height="180" as="geometry" />
         </mxCell>
         <mxCell id="YUzCCpUECBsyAlVZZMWO-17" value="&lt;&lt;PK&gt;&gt; jednací číslo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;" parent="YUzCCpUECBsyAlVZZMWO-16" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -130,7 +130,7 @@
           <mxGeometry y="150" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YUzCCpUECBsyAlVZZMWO-30" value="udělal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="400" y="304" width="60" height="26" as="geometry" />
+          <mxGeometry x="380" y="304" width="60" height="26" as="geometry" />
         </mxCell>
         <mxCell id="YUzCCpUECBsyAlVZZMWO-32" value="spadá pod" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="630" y="490" width="60" height="30" as="geometry" />
@@ -247,7 +247,7 @@
           <mxGeometry x="680" y="346" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EH11lvsD1z63_qBclOPW-16" value="0 .. N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="490" y="370" width="40" height="30" as="geometry" />
+          <mxGeometry x="430" y="370" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EH11lvsD1z63_qBclOPW-17" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="300" width="20" height="30" as="geometry" />
