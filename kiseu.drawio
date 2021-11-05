@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T17:52:13.690Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="mIzwb6I0UsBdfEjbZWnE" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-05T17:58:10.611Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="IJCBlIf7rh0s_dHrSXhd" version="15.7.0" type="github">
   <diagram id="vguMqKOHpN7uPl-TGXzs" name="Page-1">
     <mxGraphModel dx="2253" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -138,7 +138,7 @@
         <mxCell id="V2bO78Ce8K--TRu7kbpJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YUzCCpUECBsyAlVZZMWO-36" target="YUzCCpUECBsyAlVZZMWO-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="740" y="710" />
+              <mxPoint x="740" y="660" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -222,9 +222,6 @@
         <mxCell id="YUzCCpUECBsyAlVZZMWO-67" value="důvod opuštění" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;" parent="YUzCCpUECBsyAlVZZMWO-59" vertex="1">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V2bO78Ce8K--TRu7kbpJ-24" value="zavedena v &amp;lt;&amp;lt;identif&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="438" y="680" width="144" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="3lFEYHUMnGKO-NiMO6cJ-1" value="územní působnost" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="820" y="330" width="162" height="86" as="geometry" />
         </mxCell>
@@ -261,8 +258,8 @@
         <mxCell id="EH11lvsD1z63_qBclOPW-23" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="910" y="300" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EH11lvsD1z63_qBclOPW-24" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="406" width="20" height="30" as="geometry" />
+        <mxCell id="EH11lvsD1z63_qBclOPW-24" value="1 .. N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="406" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EH11lvsD1z63_qBclOPW-25" value="0 .. N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="540" width="40" height="30" as="geometry" />
@@ -286,7 +283,7 @@
           <mxGeometry x="740" y="346" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EH11lvsD1z63_qBclOPW-38" value="1 .. N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="328" y="680" width="40" height="30" as="geometry" />
+          <mxGeometry x="328" y="630" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6NPvcWR003Nbs39lDt_t-5" value="je nadřízená" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="150" y="750" width="70" height="30" as="geometry" />
@@ -296,6 +293,24 @@
         </mxCell>
         <mxCell id="6NPvcWR003Nbs39lDt_t-7" value="0 .. 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="129" y="630" width="39" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6NPvcWR003Nbs39lDt_t-10" value="zavedena v" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="452" y="690" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6NPvcWR003Nbs39lDt_t-11" value="datum začátku" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;" vertex="1" parent="6NPvcWR003Nbs39lDt_t-10">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6NPvcWR003Nbs39lDt_t-12" value="datum ukončení" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;" vertex="1" parent="6NPvcWR003Nbs39lDt_t-10">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6NPvcWR003Nbs39lDt_t-13" value="důvod opuštění" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;" vertex="1" parent="6NPvcWR003Nbs39lDt_t-10">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6NPvcWR003Nbs39lDt_t-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6NPvcWR003Nbs39lDt_t-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="610" as="sourcePoint" />
+            <mxPoint x="522" y="660" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
